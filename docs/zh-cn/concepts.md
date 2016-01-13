@@ -30,4 +30,4 @@ const store = new Vuex.Store({
 })
 ```
 
-实例化后，你就能通过 `store.state` 访问 state, 通过 `store.actions` 访问 actions 函数。你不能直接访问 mutation 函数 —— 你只能通过调用 actions 或是 `store.disptach()` 来触发 mutations。接下来我们会更详细地讨论这几个概念。
+实例化后，你就能通过 `store.state` 访问 state, 通过 `store.actions` 访问 actions 函数。你不能直接访问 mutation 函数 —— 你只能通过调用 actions 或是 `store.dispatch()` 来触发 mutations。接下来我们会更详细地讨论这几个概念。
